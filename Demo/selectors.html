@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Working With Selectors</title>
+        <style>
+            
+            /* HTML Type Selector */ 
+            h1 {
+                Color: Red;
+            }
+            
+            p {
+                font-family: Futura; 
+                color: gray;    
+            }
+            
+            /* Class Selector */ 
+            .intro {
+                font-size: 2em;
+            }
+            
+            /* ID Selector */
+            #article {
+                background-color: beige;
+            }
+            
+            /* Descendent Selector */
+            #article h1 {
+                text-decoration: underline;
+            }
+            
+            /* Direct Child Selector */
+            #article > h4 {
+                color: navy;
+            }
+        
+        </style>
+    </head>
+    <body>
+        
+        <div id="article">
+            <h1>Title of my article</h1>
+            <h4>this is my subtitle</h4>
+            <p>Paragraph</p>
+            <div>
+                <h4>Also A Headline</h4>
+            </div>
+        </div>
+        
+        <div>
+            <h1>Headline</h1>
+            <p class="intro">Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+        </div>
+        <h1>Hello There!</h1>
+    
+    </body>
+
+</html>

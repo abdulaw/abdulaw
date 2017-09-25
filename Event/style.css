@@ -1,0 +1,20 @@
+title {
+    font-family: futura;
+    color: black;
+    
+}
+body {
+    line-height: 1.5;
+    background-color: #999999;    
+}
+
+h2 {
+    font-family: futura;
+    color: #d13a29;
+}
+
+p {
+    font-family: Proxima Nova;
+    line-height: 1.4;
+    color: black;
+}
