@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
+
+
+body {
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: #303132;
+    color: silver;
+}
+
+h1, h2, h3, h4 ,h5 {
+    font-family: 'Oswald', serif;    
+    color: black;
+}
+
+/* Layout */
+.header {
+    padding: 0rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    background-color: #ef472f;    
+}
+
+.header h1 {
+    float: left;
+    margin-left: 1rem;
+}
+
+.header h2 {
+    float: right;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.footer {
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    
+}
+
+.content {
+    margin: 100px auto;
+    max-width: 1000px;
+    text-align: center;
+    margin-top: 7rem;
+    font-family: 'Oswald';
+}
+
+.super h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.luxury h3 {
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.classic h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.designers h3 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.broadcasters h3 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.entertainment h3 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.day1 h1 {
+    text-align: center;
+    font-size: 3rem;
+    width: 0 0;
+    height: 0 0;
+    background-color: silver;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 80%;
+}
+
+.day2 h1 {
+    text-align: center;
+    font-size: 3rem;
+    width: 0 0;
+    height: 0 0;
+    background-color: silver;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 80%;
+}
+
+.day3 h1 {
+    text-align: center;
+    font-size: 3rem;
+    width: 0 0;
+    height: 0 0;
+    background-color: silver;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 80%;
+}
