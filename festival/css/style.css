@@ -7,11 +7,15 @@ body {
     font-weight: normal;
     background-color: #303132;
     color: silver;
+    background: url(https://i.pinimg.com/originals/54/eb/6a/54eb6a27ce0c3cac9eadcedcf2befac7.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+        
 }
 
 h1, h2, h3, h4 ,h5 {
     font-family: 'Oswald', serif;    
-    color: black;
+    color: white;
 }
 
 /* Layout */
@@ -22,7 +26,7 @@ h1, h2, h3, h4 ,h5 {
     top: 0;
     left: 0;
     box-sizing: border-box;
-    background-color: #ef472f;    
+    background-color: #af2f1c;
 }
 
 .header h1 {
@@ -39,8 +43,7 @@ h1, h2, h3, h4 ,h5 {
 .footer {
     padding: 20px;
     width: 100%;
-    position: fixed;
-    bottom: 0;
+    clear: both;
     text-align: center;
     
 }
@@ -51,68 +54,60 @@ h1, h2, h3, h4 ,h5 {
     text-align: center;
     margin-top: 7rem;
     font-family: 'Oswald';
+    color: black;
 }
 
-.super h3 {
+.super h3, .luxury h3, .classic h3 {
     font-size: 3rem;
     text-align: center;
+    clear: both;
 }
 
-.luxury h3 {
-    font-size: 3rem;
-    text-align: center;
 
-}
-
-.classic h3 {
-    font-size: 3rem;
-    text-align: center;
-}
-
-.designers h3 {
+.designers h3, .broadcasters h3, .entertainment h3 {
     font-size: 2rem;
     letter-spacing: 1px;
+    color: white;
 }
 
-.broadcasters h3 {
-    font-size: 2rem;
-    letter-spacing: 1px;
+.day1, .day2, .day3 {
+    margin-bottom: 20px;
+    overflow: auto;
 }
 
-.entertainment h3 {
-    font-size: 2rem;
-    letter-spacing: 1px;
-}
-
-.day1 h1 {
+.day1 h1, .day2 h1, .day3 h1 {
     text-align: center;
-    font-size: 3rem;
-    width: 0 0;
-    height: 0 0;
-    background-color: silver;
-    margin-left: 250px;
-    margin-right: 250px;
+    font-size: 2.5rem;
+    width: 250px;
+    background-color: #282828;
+    margin: auto;
     border-radius: 80%;
+    float: left;
+    width: 20%;
+    clear: both;
+    overflow: auto;
 }
 
-.day2 h1 {
-    text-align: center;
-    font-size: 3rem;
-    width: 0 0;
-    height: 0 0;
-    background-color: silver;
-    margin-left: 250px;
-    margin-right: 250px;
-    border-radius: 80%;
+/* Articles */
+
+.day1 p, .day2 p, .day3 p {
+    float: right;
+    width: 75%;
+    max-width: 1100px
 }
 
-.day3 h1 {
+.super p, .luxury p, .classic p {
+    margin-bottom: auto;
+    margin-top: 20px;
     text-align: center;
-    font-size: 3rem;
-    width: 0 0;
-    height: 0 0;
-    background-color: silver;
-    margin-left: 250px;
-    margin-right: 250px;
-    border-radius: 80%;
+}
+
+.designers li, .broadcasters li, .entertainment li {
+    clear: both;
+    margin-bottom: 5px;
+}
+
+.gallery {
+    clear: both;
+    overflow: auto;
 }
