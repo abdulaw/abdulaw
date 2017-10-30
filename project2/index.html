@@ -1,12 +1,88 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Tumblr</title>
+        <title>Marshmello</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" />
         <style>
-        
+            body {
+                font-family: Futura, serif;
+                
+            }
+            
+            .header h1 {
+                margin: auto;
+                float: right;
+                padding: 1rem;
+                font-size: 2rem;
+                font-weight: bold;
+            
+            }
+            
+            .header li {
+                float: left;
+                padding: 1rem;
+                margin: auto;
+                list-style: none;
+            }
+            
+            .header ul li {
+                display: inline-block;
+                transition: all .3s ease;
+                
+            }
+            
+            .header ul li:hover {
+                color: red;
+            }
+            
+            .header ul li a {
+                text-decoration: none;
+            }
+           
+            div#masonry { 
+                display: flex; 
+                flex-direction: column; 
+                flex-wrap: wrap;
+                height: 100vw;
+                max-height: 2000px;
+                font-size: 0;  
+                
+            }
+            div#masonry img {  
+                width: 33.3%;
+                transition: .8s opacity;   
+            } 
+
+            div#masonry:hover img { opacity: 0.3; }
+            div#masonry:hover img:hover { opacity: 1; } 
+            
         </style>
     </head>
     <body>
-        
+        <div class="header">
+            <h1>Marshmello</h1>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Video</a></li>
+                <li><a href="">Mello</a></li>
+            </ul>
+        </div>
+        <section>
+            <div id="masonry">
+                <img src="imgs/B1-4026-1118-00-1.jpg">
+                <img src="imgs/main.jpg">
+                <img src="imgs/03-marshmello-artist-visit-aug-2016billboard-1548.jpg">
+                <img src="imgs/16601864_1445668332118360_1068110255601090490_o.jpg">
+                <img src="imgs/marshmello-1.jpg">
+                <img src="imgs/Marshmello-2016-Bellnjerry-billboard-1548-650-2.jpg">
+                <img src="imgs/S1.png">
+                <img src="imgs/S2.png">
+                <img src="imgs/S3.png">
+                <img src="imgs/S4.png">
+                <img src="imgs/S5.png">
+                <img src="imgs/s6.png">
+                <img src="imgs/s7.png">
+            </div>
+        </section>
     </body>
 </html>
