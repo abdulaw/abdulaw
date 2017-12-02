@@ -1,0 +1,101 @@
+/* Portfolio */ 
+
+/* Fonts */ 
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab|Julius+Sans+One|Quicksand');
+/*
+font-family: 'Quicksand', Helvetica, sans-serif;
+font-family: 'Julius Sans One', Helvetica, sans-serif;
+font-family: 'Josefin Slab', Impact, serif;
+font-family: 'Josefin Sans', Impact, sans-serif;
+*/ 
+
+/* About */ 
+ 
+body {
+    background-color: #f0eddb;
+    
+}
+
+.logo {
+    text-align: center;
+}
+
+.name-text h1 {
+    font-family:'Julius Sans One', Helvetica, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    padding: 20px;
+}
+
+.about {
+    font-family: 'Josefin Slab', Impact, serif;
+
+}
+
+.about-text h1 {
+    font-size: 66px;
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+    margin-top: 80px
+}
+
+.about-text h2 {
+    font-size: 40px; 
+    margin: 20px;
+    width: 80%;
+    text-align: right;
+}
+
+.about-text h3 {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.about-text h4 {
+    font-size: 30px;
+    margin: 10px; 
+    margin-left: 300px;
+}
+
+header {
+    font-family: 'Quicksand', Helvetica, sans-serif;
+    width: 100%;
+    padding: 25px;
+    margin: 2em;
+    position: absolute;
+    top: 75px;
+    box-sizing: border-box;
+}
+
+header h1 {
+    
+}
+
+header nav {
+    float: inherit
+}
+
+header nav ul {
+    margin-top: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 5.5em; 
+}
+
+header nav ul li a {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+header nav ul li a:hover {
+    color: red;
+}
+
