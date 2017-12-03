@@ -99,3 +99,26 @@ header nav ul li a:hover {
     color: red;
 }
 
+/* Work Page */
+
+.work-container {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid .work {
+    width: 40%;
+    padding: 10px;
+    box-sizing: border-box; 
+    margin: 25px;
+    
+}
+
+.work-image img {
+    width: 100%;
+}
+
