@@ -109,6 +109,7 @@ header nav ul li a:hover {
 .grid {
     display: flex;
     flex-wrap: wrap;
+    padding: 2em;
 }
 
 .grid .work {
