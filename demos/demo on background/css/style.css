@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
+
+body {
+    font-family: 'Lato', Times, Georgia, serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: url(https://static.bhphotovideo.com/explora/sites/default/files/Nikon%20105mm%20DC%20f2.0%20River%201-3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Oswald', Helvetica, arial;
+}
+
+/* Layout */
+.header {
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    float: left;
+}
+
+.header h2 {
+    float: right;
+}
+
+.footer {
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+.content {
+    margin:  100px auto;
+    max-width: 700px;
+    text-align: center;
+}
+
+.event {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.event h3 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 1.5rem;
+}
+
+.event .location {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    position: absolute;
+    top; -30px;
+    right: 0px;
+    background-color: azure;
+    border-radius: 50%;
+}
+
+.event ul {
+    font-family: 'Oswald';
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.event ul li {
+    margin-bottom: 1rem;
+}
