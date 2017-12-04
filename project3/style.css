@@ -48,13 +48,14 @@ body {
 .about-text h3 {
     font-size: 20px;
     padding: 20px;
-    
+    text-align: left;
 }
 
 .about-text h4 {
     font-size: 30px;
     margin: 10px; 
     margin-left: 30px;
+    text-align: left;
 }
 
 header {
