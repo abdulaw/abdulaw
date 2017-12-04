@@ -71,10 +71,6 @@ header {
     box-sizing: border-box;
 }
 
-header h1 {
-    
-}
-
 header nav {
     float: inherit
 }
