@@ -121,6 +121,12 @@ header nav ul li a:hover {
     width: 100%;
 }
 
+.work-image h3 {
+    font-family: 'Josefin Slab', Impact, serif;
+    font-size: 12px;
+    text-align: center;
+    margin: 5px;
+}
 /* Responsive Site */
 
 @media screen and (max-width:599px) {
