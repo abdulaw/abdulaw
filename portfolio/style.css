@@ -127,7 +127,7 @@ header nav ul li a:hover {
 }
 
 /* Responsive Site */
-@media screen and (max-width:699px) {
+@media screen and (max-width:599px) {
     header {
         text-align: center;
     }
