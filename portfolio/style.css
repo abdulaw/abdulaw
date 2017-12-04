@@ -127,7 +127,7 @@ header nav ul li a:hover {
 }
 
 /* Responsive Site */
-@media screen and (max-width:599px) {
+@media screen and (max-width:699px) {
     header {
         text-align: center;
     }
@@ -150,3 +150,5 @@ header nav ul li a:hover {
     .grid {
         width: 100%;
         padding: 0;
+    }
+}
