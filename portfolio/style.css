@@ -127,5 +127,26 @@ header nav ul li a:hover {
 }
 
 /* Responsive Site */
-@media screen and (max-width:599px)
+@media screen and (max-width:599px) {
+    header {
+        text-align: center;
+    }
+    
+    header h1, header nav {
+        float: none;
+    }
 
+    .work-text {
+        padding: 20px;
+    }
+    .work-text, .work-image {
+        padding: 0px 20px;
+        width: 100%; 
+        box-sizing: border-box;
+    }
+    .work-image {
+        margin-bottom: 50px;
+    }
+    .grid {
+        width: 100%;
+        padding: 0;
